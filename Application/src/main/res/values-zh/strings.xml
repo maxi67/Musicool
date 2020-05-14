@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="app_name">MusiCool</string>
+    <string name="bt_not_enabled_leaving">藍牙未啟用，關閉應用程式</string>
+    <string name="title_not_connected">未連線</string>
+    <string name="title_connecting">連線中...</string>
+    <string name="title_connected_to">已連線到 <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="button_scan">掃描裝置</string>
+    <string name="discoverable">使裝置可見</string>
+    <string name="secure_connect">連線</string>
+    <string name="scanning">正在掃描裝置中...</string>
+    <string name="not_connected">您沒有連接到設備</string>
+    <string name="none_paired">沒有配對到設備</string>
+    <string name="none_found">找不到設備</string>
+    <string name="title_other_devices">其他可用裝置</string>
+    <string name="insecure_connect">不安全連線</string>
+    <string name="intro_message"><![CDATA[          測試藍牙模組傳輸掃描琴鍵資料之流暢性          ]]></string>
+    <string name="sample_hide_log">隱藏log</string>
+    <string name="sample_show_log">顯示log</string>
+    <string name="select_device">選擇一個裝置進行連線</string>
+    <string name="send">傳送</string>
+    <string name="title_paired_devices">已配對裝置</string>
+    <string name="disconnect">中斷連線</string>
+    <string name="exit">離開</string>
+    <string name="mode_record">MusiCool - 錄音模式</string>
+    <string name="mode_learning">MusiCool - 學習模式</string>
+    <string name="mode_free">MusiCool - 自彈模式</string>
+    <string name="timer_zero">0:0</string>
+</resources>

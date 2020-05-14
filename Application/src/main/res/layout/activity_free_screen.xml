@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#225544">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:id="@+id/kyb_00b3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_keyboard_white_style" />
+
+        <Button
+            android:id="@+id/kyb_01c4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_keyboard_white_style" />
+
+        <Button
+            android:id="@+id/kyb_03d4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_keyboard_white_style" />
+
+        <Button
+            android:id="@+id/kyb_05e4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_keyboard_white_style" />
+        <Button
+            android:id="@+id/kyb_06f4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_keyboard_white_style" />
+
+        <Button
+            android:id="@+id/kyb_08g4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_keyboard_white_style" />
+
+        <Button
+            android:id="@+id/kyb_10a4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_keyboard_white_style" />
+
+        <Button
+            android:id="@+id/kyb_12b4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_keyboard_white_style"/>
+        <Button
+            android:id="@+id/kyb_13c5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_keyboard_white_style"/>
+
+        <Button
+            android:id="@+id/kyb_15d5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_keyboard_white_style" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginTop="50dp">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="8"
+            android:background="#00000000"/>
+        <Button
+        android:id="@+id/kyb_02c4p"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:background="@drawable/btn_keyboard_black_style"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="#00000000"/>
+        <Button
+            android:id="@+id/kyb_04d4p"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@drawable/btn_keyboard_black_style"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:background="#00000000"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:background="#00000000"/>
+        <Button
+            android:id="@+id/kyb_07f4p"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@drawable/btn_keyboard_black_style"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="#00000000"/>
+        <Button
+            android:id="@+id/kyb_09g4p"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@drawable/btn_keyboard_black_style"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="2"
+            android:background="#00000000"/>
+        <Button
+            android:id="@+id/kyb_11a4p"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@drawable/btn_keyboard_black_style"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:background="#00000000"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:background="#00000000"/>
+        <Button
+            android:id="@+id/kyb_14c5p"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@drawable/btn_keyboard_black_style"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:background="#00000000"/>
+    </LinearLayout>
+
+</RelativeLayout>
+
+

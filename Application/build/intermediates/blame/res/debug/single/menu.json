@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\ASUS\\AndroidStudioProjects\\BluetoothChatN2\\Application\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\ASUS\\AndroidStudioProjects\\BluetoothChatN2\\Application\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\AndroidStudioProjects\\BluetoothChatN2\\Application\\build\\intermediates\\res\\merged\\debug\\menu\\bluetooth_chat.xml",
+        "source": "C:\\Users\\ASUS\\AndroidStudioProjects\\BluetoothChatN2\\Application\\src\\main\\res\\menu\\bluetooth_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\AndroidStudioProjects\\BluetoothChatN2\\Application\\build\\intermediates\\res\\merged\\debug\\menu\\menu_player.xml",
+        "source": "C:\\Users\\ASUS\\AndroidStudioProjects\\BluetoothChatN2\\Application\\src\\main\\res\\menu\\menu_player.xml"
+    }
+]

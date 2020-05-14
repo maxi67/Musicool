@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.MusiCool"
+    android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.android.MusiCool.MainActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.android.MusiCool.DeviceListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/select_device"
+            android:theme="@android:style/Theme.Holo.Dialog" />
+        <activity
+            android:name="com.example.android.MusiCool.RecordActivity"
+            android:label="@string/mode_record" />
+        <activity
+            android:name="com.example.android.MusiCool.RecordPlayActivity"
+            android:label="作品播放器" />
+        <activity
+            android:name="com.example.android.MusiCool.LearnActivity"
+            android:label="@string/mode_learning"/>
+        <activity
+            android:name="com.example.android.MusiCool.FreeActivity"
+            android:label="@string/mode_free"/>
+    </application>
+
+</manifest>

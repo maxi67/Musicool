@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_purple_pink">
+
+    <ImageButton
+        android:id="@+id/btn_select_play"
+        android:layout_width="wrap_content"
+        android:layout_height="80sp"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_recordmode_play" />
+
+    <ImageButton
+        android:id="@+id/btn_select_record"
+        android:layout_width="wrap_content"
+        android:layout_height="80sp"
+        android:layout_marginTop="100dp"
+        android:layout_below="@id/btn_select_play"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_recordmode_record" />
+
+</RelativeLayout>

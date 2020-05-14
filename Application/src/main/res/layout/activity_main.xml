@@ -1,0 +1,75 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/sample_main_layout"
+    android:weightSum="1">
+
+    <ViewAnimator
+        android:id="@+id/sample_output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ViewAnimator>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <fragment
+        android:name="com.example.android.common.logger.LogFragment"
+        android:id="@+id/log_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        tools:layout="@android:layout/test_list_item" />
+
+    <LinearLayout
+        android:id="@+id/mode_button_group"
+        android:orientation="horizontal"
+        android:layout_below="@id/log_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/btn_learning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_learning"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="250dp"/>
+
+        <ImageButton
+            android:id="@+id/btn_free"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_free"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp" />
+
+        <ImageButton
+            android:id="@+id/btn_record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_record"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="250dp" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/sample_content_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <FrameLayout
+        android:id="@+id/fragment_test"
+        android:layout_below="@id/mode_button_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </FrameLayout>
+
+</RelativeLayout>

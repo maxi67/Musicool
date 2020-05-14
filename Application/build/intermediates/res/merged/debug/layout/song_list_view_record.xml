@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layout_radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="0dp"
+            android:layout_height="40sp"
+            android:orientation="horizontal"
+            android:layout_weight="6">
+
+            <RadioButton
+                android:id="@+id/radioButton_play"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Play"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:checked="true"/>
+            <RadioButton
+                android:id="@+id/radioButton_rename"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Rename"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:layout_weight="1"/>
+            <RadioButton
+                android:id="@+id/radioButton_delete"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:layout_weight="1" />
+        </RadioGroup>
+        <ImageButton
+            android:id="@+id/list_btn_back"
+            android:layout_width="0dp"
+            android:layout_height="40sp"
+            android:layout_weight="1"
+            android:src="@drawable/btn_back"
+            android:scaleType="centerInside"
+            android:background="#00000000"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/song_List"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+</LinearLayout>

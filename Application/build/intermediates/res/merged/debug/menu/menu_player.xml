@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_fore"
+        android:icon="@drawable/btn_fore"
+        android:showAsAction="ifRoom"
+        android:title="fore"/>
+    <item
+        android:id="@+id/menu_next"
+        android:icon="@drawable/btn_next"
+        android:showAsAction="ifRoom"
+        android:title="next"/>
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/btn_home"
+        android:showAsAction="ifRoom"
+        android:title="home"/>
+</menu>
+
+
