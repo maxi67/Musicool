@@ -23,17 +23,15 @@ MusiCool
 ---
 - 透過簡易編碼的方式，我們將每一首曲目的data組成一整條字串，內含若干組"XaYb" (以空格隔開，X為琴音的代號，Y為以微秒為單位的時間)。
 - 以下以小蜜蜂做為範例，第一個音4a為Sol，在631ms時彈奏，依此類推...
-<img src="screenshots/song.png" height="400"/>
+<img src="screenshots/song.png"/>
 
-
-主畫面
+主畫面、錄音及播放畫面
 ---
-<img src="screenshots/main_activity.png" height="400"/>
+<img src="screenshots/main_activity.png" height="400"/> <img src="screenshots/record_mode.png" height="400"/> <img src="screenshots/play_mode.png" height="400"/>
 
 學習畫面
 ---
 <img src="screenshots/learn_mode.png" height="400"/>
-
 
 Demo Video
 ---
