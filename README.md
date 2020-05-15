@@ -6,6 +6,6 @@ MusiCool
 -------------
 <img src="screenshots/main_activity.png" height="400"/>
 
-Demo
+Demo Video
 -------------
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bZjE19V5-94" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://www.youtube.com/watch?v=bZjE19V5-94

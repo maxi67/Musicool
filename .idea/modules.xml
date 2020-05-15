@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Application/Application.iml" filepath="$PROJECT_DIR$/Application/Application.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MusiCool.iml" filepath="$PROJECT_DIR$/MusiCool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Musicool.iml" filepath="$PROJECT_DIR$/Musicool.iml" />
     </modules>
   </component>
 </project>
