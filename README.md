@@ -19,10 +19,14 @@ MusiCool
 ## 3. 錄音模式(Recording mode)
 主要實現樂曲創作的功能。使用Android App開啟本模式並選擇錄音後，會開始記錄使用者所彈奏的音，直到停止鍵被按下。此時，Android App會將這段時間內的彈奏紀錄儲存成一個樂曲音檔，可以選擇播放或做為學習模式的教材。
 
-
 主畫面
 ---
 <img src="screenshots/main_activity.png" height="400"/>
+
+學習畫面
+---
+<img src="screenshots/learn_mode.png" height="400"/>
+
 
 Demo Video
 ---
